@@ -1,2 +1,13 @@
-# dotfiles
-Personal dotfiles for a variety of programs i use.
+# Marco's dotfiles
+## Contents
+- Alacritty config
+- Btop config
+- Fastfetch config
+- Hyprland config
+- NeoVim config (kickstart as base)
+- Omarchy themes
+- Waybar config
+
+## Installation
+### Linux
+```git clone https://github.com/marcoriola/dotfiles.git && cd dotfiles/.config/ && cp -r * ~/.config/```
