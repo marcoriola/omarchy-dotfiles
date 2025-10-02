@@ -9,7 +9,6 @@
 - Waybar config
 
 ## Installation
-### Linux
 ```
 git clone https://github.com/marcoriola/dotfiles.git
 cd dotfiles
