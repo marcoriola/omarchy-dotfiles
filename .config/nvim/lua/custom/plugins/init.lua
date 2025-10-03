@@ -28,4 +28,12 @@ return {
       vim.g.rustfmt_autosave = 1
     end,
   },
+
+  {
+    'windwp/nvim-autopairs',
+    event = 'InsertEnter',
+    config = true,
+    -- use opts = {} for passing setup options
+    -- this is equivalent to setup({}) function
+  },
 }

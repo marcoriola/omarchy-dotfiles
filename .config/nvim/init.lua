@@ -83,6 +83,9 @@ vim.o.confirm = true
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
+-- Force <tab> to insert 4 spaces (fixes snippet jumps)
+vim.keymap.set('i', '<Tab>', '<Space><Space><Space><Space>', { noremap = true })
+
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
