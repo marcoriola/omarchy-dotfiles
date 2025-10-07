@@ -1,9 +1,9 @@
 # Lines configured by zsh-newuser-install
-HISTFILE=~/.zsh_history
+HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
-setopt extendedglob nomatch notify
-unsetopt autocd beep
+setopt autocd extendedglob nomatch notify
+unsetopt beep
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
@@ -13,9 +13,15 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-# Manual configuration
-eval "$(~/.local/bin/oh-my-posh init zsh)"
+if [ -f ~/.config/zsh/aliases ]; then
+    source ~/.config/zsh/aliases
+else
+    print "404: ~/.config/zsh/aliases not found."
+fi
 
-# TODO: add aliases and plugins
+# Add .local/bin path 
+export PATH="$HOME/.local/bin:$PATH"
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# Keep at the end of the file
+eval "$(zoxide init zsh)"
+eval "$(starship init zsh)"
