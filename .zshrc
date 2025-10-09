@@ -23,9 +23,9 @@ fi
 export PATH="$HOME/.local/bin:$PATH"
 
 # Init plugins
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh/plugins/sudo/sudo.plugin.zsh
+source .config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source .config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source .config/zsh/plugins/sudo/sudo.plugin.zsh
 
 # Keep at the end of the file
 eval "$(zoxide init zsh)"
