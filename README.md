@@ -2,8 +2,9 @@
 ## Contents
 - Alacritty config
 - Hyprland config
-- NeoVim config (Based on LazyVim)
+- NeoVim config (Based on Kickstarter)
 - Omarchy themes
+- .zshrc
 
 ## Installation
 ```
