@@ -4,7 +4,7 @@
 - Hyprland config
 - NeoVim config (Based on Kickstarter)
 - Omarchy themes
-- .zshrc
+- Zsh config
 
 ## Installation
 ```
