@@ -13,19 +13,19 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-if [ -f ~/.config/zsh/aliases ]; then
-    source ~/.config/zsh/aliases
+if [ -f /home/marware/.config/zsh/aliases ]; then
+    source /home/marware/.config/zsh/aliases
 else
-    print "404: ~/.config/zsh/aliases not found."
+    print "404: /home/marware/.config/zsh/aliases not found."
 fi
 
 # Add .local/bin path 
-export PATH="$HOME/.local/bin:$PATH"
+export PATH="/home/marware/.local/bin:$PATH"
 
 # Init plugins
-source .config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source .config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source .config/zsh/plugins/sudo/sudo.plugin.zsh
+source /home/marware/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/marware/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /home/marware/.config/zsh/plugins/sudo/sudo.plugin.zsh
 
 # Keep at the end of the file
 eval "$(zoxide init zsh)"

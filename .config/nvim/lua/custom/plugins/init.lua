@@ -5,6 +5,18 @@
 
 return {
   {
+    'ficcdaf/ashen.nvim',
+    -- optional but recommended,
+    -- pin to the latest stable release:
+    lazy = false,
+    priority = 1000,
+    -- configuration is optional!
+    opts = {
+      -- your settings here
+    },
+  },
+
+  {
     'catppuccin/nvim',
     name = 'catppuccin',
     priority = 1000,
