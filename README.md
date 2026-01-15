@@ -4,6 +4,7 @@
 - Hyprland config
 - NeoVim config (Based on Kickstarter)
 - Omarchy themes
+- Waybar theme
 - Zsh config
 
 ## Installation
