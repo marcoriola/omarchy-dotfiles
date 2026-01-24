@@ -1,7 +1,7 @@
 @define-color foreground #a6accd;
-@define-color background #11111b;
+@define-color background #11111b00;
 
-@define-color selected-text #eeeeee;
+@define-color selected-text #eeeeff;
 @define-color selected-background #2a2e3f;
 @define-color error-text #d0679d;
 

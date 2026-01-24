@@ -27,6 +27,8 @@ source /home/marware/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-high
 source /home/marware/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /home/marware/.config/zsh/plugins/sudo/sudo.plugin.zsh
 
+fastfetch
+
 # Keep at the end of the file
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"

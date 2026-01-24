@@ -1,7 +1,7 @@
 {
   "cpu": {
     "interval": 5,
-    "format": "{usage}% 󰍛",
+    "format": "󰍛 {usage}%",
     "on-click": "omarchy-launch-or-focus-tui btop",
     "on-click-right": "omarchy-launch-or-focus-tui htop",
     "tooltip-format": "CPU: {usage}%\nLoad: {load}"

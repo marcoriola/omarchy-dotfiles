@@ -4,7 +4,7 @@
 @define-color image #fff;
 @define-color label #fff;
 
-@define-color progress #5de4c7;
+@define-color progress #ff9b71;
 @define-color trough #2a2e3f;
 
 window#osd {
