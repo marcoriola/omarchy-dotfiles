@@ -1,6 +1,5 @@
 {
   "modules-left": [
-    "custom/omarchy",
     "hyprland/workspaces",
     "hyprland/window"
   ],
@@ -10,12 +9,9 @@
     "custom/update"
   ],
   "modules-right": [
-    "group/tray-expander",
-    "memory",
-    "custom/gpu",
-    "cpu",
+    "bluetooth",
     "network",
+    "battery",
     "pulseaudio",
-    "battery"
   ]
 }
