@@ -1,4 +1,4 @@
-# Marco's dotfiles
+# Marco's omarchy dotfiles
 ## Contents
 - Alacritty config
 - Hyprland config
@@ -9,7 +9,7 @@
 
 ## Installation
 ```
-git clone https://github.com/marcoriola/dotfiles.git
+git clone https://github.com/marcoriola/omarchy-dotfiles.git
 cd dotfiles
 stow .
 ```
